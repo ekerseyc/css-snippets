@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mini Project - CSS Snippets</title>
+    <link rel="stylesheet" href="./assets/style.css">
+</head>
+
+<body>
+    <header>
+        <h1>Mini Project - CSS Snippets</h1>
+        <p>This is a short description about CSS cheatsheets.</p>
+    </header>
+    <main>
+        <article>
+            <section>
+                <h2>Flexbox Row</h2>
+                <p>Use these properties to create a Flexbox row layout.</p>
+                <pre>
+                <code>
+.row {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+                </code>
+            </pre>
+            </section>
+        </article>
+        <article>
+            <section>
+                <h2>Flexbox Column</h2>
+                <p>Use these properties to create a Flexbox column.</p>
+                <pre>
+                <code>
+.column {
+    display: flex;
+    flex-direction: column;
+}
+                </code>
+            </pre>
+            </section>
+        </article>
+        <article>
+            <section>
+                <h2>Box Shadow</h2>
+                <p>Use these properties to add a blurred shadow to any box.</p>
+                <pre>
+                <code>
+.box {
+    border: 1px solid;
+    padding: 10px;
+    box-shadow: 5px 10px 18px #888;
+}
+                </code>
+            </pre>
+            </section>
+        </article>
+        <article>
+            <section>
+                <h2>Linear Gradient</h2>
+                <p>Use these properties to create a linear gradient from top to bottom.</p>
+                <pre>
+                <code>
+.linear-gradient-bg {
+background-image: linear-gradient(
+    rgba(232, 102, 236, 0.3) 0%,
+    rgba(232, 102, 236, 0.6) 100%
+    );
+}
+                </code>
+            </pre>
+            </section>
+        </article>
+        <article>
+            <section>
+                <h2>Box Transition Glow</h2>
+                <p>Use these properties to create a glowing border when hovering.</p>
+                <pre>
+                <code>
+.code-card, .code-header {
+    border-radius: 8px;
+    transition: all 0.5s ease-in-out;
+}
+
+.code-card:hover, code-card:hover
+.card-header {
+    box-shadow: inset 0px 0px 8px
+    rgba(232, 102, 236, 1); 0 0 15px
+    rgba(232, 102, 236, 1);
+}
+                </code>
+            </pre>
+            </section>
+        </article>
+        <article>
+            <section>
+                <h2>Overlay Card with Title</h2>
+                <p>Use this to make a card similar to what you see on this page!</p>
+                <pre>
+                <code>
+.card-header {
+    position: relative;
+    margin-top: -20px;
+}
+                </code>
+            </pre>
+            </section>
+        </article>
+    </main>
+    <footer>
+        <h2>Emily made this with CSS!</h2>
+    </footer>
+</body>
+
+</html>
